@@ -14,6 +14,8 @@ $(call inherit-product, device/realme/spartan/device.mk)
 # Inherit some common Skyline UI stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Skyline UI
+CUSTOM_BUILD_TYPE := OFFICIAL
 
 PRODUCT_NAME := aosp_spartan
 PRODUCT_DEVICE := spartan
