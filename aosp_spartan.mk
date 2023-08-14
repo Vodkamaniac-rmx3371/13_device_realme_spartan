@@ -16,6 +16,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Skyline UI
 CUSTOM_BUILD_TYPE := OFFICIAL
+SKYLINEUI_MAINTAINER := H A R I P R A K A S H
 
 PRODUCT_NAME := aosp_spartan
 PRODUCT_DEVICE := spartan
