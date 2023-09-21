@@ -115,6 +115,9 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    GCamGOPrebuilt-V4
+
+PRODUCT_PACKAGES += \
     libcamera_metadata_shim
 
 PRODUCT_PACKAGES += \
