@@ -114,8 +114,7 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-service
 
 # Camera
-PRODUCT_PACKAGES += \
-    GCamGOPrebuilt-V4
+$(call inherit-product-if-exists, vendor/gcam/bsg/config.mk)
 
 PRODUCT_PACKAGES += \
     libcamera_metadata_shim
