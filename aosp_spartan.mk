@@ -16,7 +16,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Skyline UI
 CUSTOM_BUILD_TYPE := OFFICIAL
-SKYLINEUI_MAINTAINER := H A R I P R A K A S H
+SKYLINEUI_MAINTAINER := Hariprakash
 
 PRODUCT_NAME := aosp_spartan
 PRODUCT_DEVICE := spartan
@@ -36,4 +36,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 BUILD_FINGERPRINT := realme/RMX3371/RE54E4L1:13/TP1A.220905.001/S.cd290a_d5d0-4:user/release-keys
-
