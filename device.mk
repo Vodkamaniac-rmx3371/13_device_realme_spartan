@@ -105,6 +105,9 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti.recovery \
     android.hardware.boot@1.1-service
 
+# BCR
+$(call inherit-product, vendor/bcr/bcr.mk)
+
 # Camera
 PRODUCT_PACKAGES += \
     GCamGOPrebuilt-V3_8
