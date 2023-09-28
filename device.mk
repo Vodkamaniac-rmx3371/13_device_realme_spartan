@@ -109,6 +109,8 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, vendor/bcr/bcr.mk)
 
 # Camera
+$(call inherit-product-if-exists, vendor/gcam/bsg/config.mk)
+
 PRODUCT_PACKAGES += \
     GCamGOPrebuilt-V3_8
 
@@ -163,8 +165,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
 
 # Doze
-PRODUCT_PACKAGES += \
-    OplusDoze
+#PRODUCT_PACKAGES += \
+#    OplusDoze
 
 # DRM
 PRODUCT_PACKAGES += \
